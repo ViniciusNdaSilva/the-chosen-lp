@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* body {
+  background-color: #0f091c;
+} */
+
+.container1 {
+  background-image: url(assents/Cabecalho.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.class1logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.class1logo img {
+  padding: 20px;
+  width: 100px;
+}
+
+.segundocard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img-cabecalho img {
+  width: 350px;
+  padding-left: 50px;
+}
+
+.headline span {
+  color: #00d1ff;
+  font-style: normal;
+  font-family: "Russo One", sans-serif;
+}
+
+.headline h1 {
+  color: #fff;
+  font-size: 55px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+
+.data-event {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.data-event-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+}
+
+.data-event-card img {
+  padding: 10px;
+}
+
+.data-event-card p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buttom-cta {
+  display: flex;
+  background-color: #00b65f;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 40px;
+  padding: 10px;
+}
+
+.buttom-cta img {
+  padding: 10px;
+}
+
+.buttom-cta a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buttom-cta a:hover {
+  color: #00d1ff;
+}
+
+/* CONTADOR */
+
+.contador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #fff;
+  background: linear-gradient(to bottom, #110a1f, #350f53);
+  width: 715px;
+  height: 84px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.cont-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.cont-number {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.cont-descr {
+  font-weight: bold;
+}
+
+/* VIDEO */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Defina a largura máxima conforme necessário */
+  margin: auto;
+}
+
+/* Estilo para o vídeo */
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video {
+  background-image: url(assents/Dobra01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.text-video {
+  padding-top: 50px;
+}
+
+.text-video h1 {
+  color: #fff;
+  font-size: 45px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.text-video span {
+  color: #00d1ff;
+  font-style: normal;
+  font-family: "Russo One", sans-serif;
+}
+
+.text-video-2 {
+  padding-top: 50px;
+  text-align: center;
+  max-width: 850px;
+  padding-bottom: 50px;
+}
+
+.text-video-2 h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.text-video-2 p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.text-video-2 p > span {
+  font-weight: bold;
+}
+
+/* MAPA */
+
+.mapa {
+  background-image: url(assents/Dobra02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  border-radius: 30px;
+}
+
+.mapa-texto {
+  width: 450px;
+  padding-left: 100px;
+}
+
+.mapa-texto h1 {
+  color: #fff;
+  font-size: 45px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.mapa-texto h2 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.mapa-texto h3 {
+  color: #fff;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.mapa-texto p {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+}
+
+.mapa-texto p > span {
+  font-weight: bold;
+}
+
+/* CONVIDADO */
+
+.convidados {
+  background-image: url(assents/Dobra03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.titulo-convidado {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.titulo-convidado h1 {
+  color: #fff;
+  font-size: 45px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.titulo-convidado h2 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.titulo-convidado h3 {
+  color: #fff;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+.titulo-convidado p {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+}
+
+.convidado1,
+.convidado2,
+.convidado3,
+.convidado4 {
+  display: flex;
+  max-width: 780px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-convidados img {
+  width: 340px;
+}
+
+.texto-convidados {
+  padding-left: 50px;
+}
+
+.texto-convidados {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto-convidados p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.texto-convidados h3 {
+  padding-bottom: 15px;
+}
+
+.redessociais {
+  background-color: #7225af;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redessociais img {
+  padding: 20px;
+}
+
+footer {
+  background-color: #350f53;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7225af;
+  font-weight: bold;
+  transition: 0.7s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 568px) {
+  .segundocard {
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+}
