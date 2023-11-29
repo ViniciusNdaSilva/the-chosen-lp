@@ -382,7 +382,7 @@ footer a:hover {
   color: #ffffff;
 }
 
-@media screen and (min-width: 310px) and (max-width: 580px) {
+@media screen and (max-width: 580px) {
   .img-cabecalho img {
     width: 260px;
     padding-left: 0px;
